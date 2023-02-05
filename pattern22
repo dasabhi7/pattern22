@@ -1,0 +1,19 @@
+#include<stdio.h> 
+#include<string.h>
+int main()
+{
+   char ch[100];
+   scanf("%s",ch);
+   int n=strlen(ch);
+   int k=1;
+   int i=0;
+   while(k<=n){
+       int a=0;
+       while(a<k){
+           printf("%c",ch[a]);
+           a++;
+       }
+       printf("\n");
+       k++;
+   }
+}
